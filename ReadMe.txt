@@ -70,4 +70,8 @@ PagedKeyedDataSource，适用于数据源以页的方式进行请求的情况
 $$paging3
 ItemKeyedDataSource，适用于目标数据的下一页需要依赖上一页数据中最后一个对象的某个字段作为key的情况，常见于评论功能的实现
 
-
+$$paging4
+- 数据库的Room操作
+- BoundaryCallback具体实现（网络数据存入数据库）BoundaryCallback无网络情况下有数据库缓存
+- PagedList的配置（从数据库中读取数据）
+- 下拉刷新处理
